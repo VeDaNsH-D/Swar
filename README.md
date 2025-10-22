@@ -6,7 +6,7 @@ This project is built with a modular, scalable architecture, separating the UI, 
 
 ## 🚀 Live Demo
 
-**(Add your live Netlify or GitHub Pages link here)**
+**(https://swarsaga.netlify.app/)**
 
 ## ✨ Features
 
@@ -96,14 +96,16 @@ You can use any static site host. The easiest are:
 
 ## 📁 Project Structure
 
-├── 📄 index.html │ 
-  └── The main HTML structure, UI elements, and script links. 
-├── 🎨 styles.css │ 
-  └── Custom styles that complement Tailwind CSS. 
-├── 🚀 app.js │ 
-  └── The main application "brain." Handles DOM, event listeners, │ and the Web Audio API setup. Manages the animation loop. 
-├── 🎵 audio-utils.js │ 
-  └── All core DSP logic. Contains the pure functions for pitch │ detection (HPS), frequency-to-note conversion, and canvas drawing. 
-└── 🔥 firebase-config.js 
-  └── Handles Firebase initialization and anonymous authentication.
-The code is intentionally separated into distinct modules for scalability and maintainability.
+/
+├── 📄 index.html
+│   └── The main HTML structure, UI elements, and script links.
+├── 🎨 styles.css
+│   └── Custom styles that complement Tailwind CSS.
+├── 🚀 app.js
+│   └── The main application "brain." Handles DOM, event listeners,
+│       and the Web Audio API setup. Manages the animation loop.
+├── 🎵 audio-utils.js
+│   └── All core DSP logic. Contains the pure functions for pitch
+│       detection (HPS), frequency-to-note conversion, and canvas drawing.
+└── 🔥 firebase-config.js
+└── Handles Firebase initialization and anonymous authentication.
