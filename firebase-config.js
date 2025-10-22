@@ -5,12 +5,13 @@ import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gsta
 // This is a placeholder configuration.
 // For a real application, you would get this from your Firebase project settings.
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCL_F0xgZz24pF1OmHrlhBFPXM95c8MyrE",
+  authDomain: "swar-bd897.firebaseapp.com",
+  projectId: "swar-bd897",
+  storageBucket: "swar-bd897.firebasestorage.app",
+  messagingSenderId: "415460007089",
+  appId: "1:415460007089:web:f66b2473cb9f2d1acf5690",
+  measurementId: "G-WV1NRCDMCK"
 };
 
 // Initialize Firebase
@@ -43,3 +44,4 @@ onAuthStateChanged(auth, (user) => {
 signIn();
 
 export { app, auth };
+
